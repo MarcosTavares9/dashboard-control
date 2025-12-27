@@ -7,8 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['xlsx'],
   },
-  ssr: {
-    noExternal: ['xlsx'],
-  },
 })
 
